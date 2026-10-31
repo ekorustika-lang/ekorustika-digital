@@ -1,12 +1,23 @@
 {
+ "id": "./",
  "name": "EKORUSTIKA DIGITALNI ALATI",
  "short_name": "EKO Digital",
- "start_url": "./",
+ "description": "EKORUSTIKA DIGITALNI ALATI",
+ "start_url": "./?source=pwa",
  "scope": "./",
  "display": "standalone",
+ "display_override": [
+  "standalone",
+  "minimal-ui"
+ ],
+ "orientation": "portrait",
  "background_color": "#050F0C",
  "theme_color": "#050F0C",
  "lang": "hr",
+ "dir": "ltr",
+ "categories": [
+  "business"
+ ],
  "icons": [
   {
    "src": "icon-192.png",
@@ -21,7 +32,7 @@
    "purpose": "any"
   },
   {
-   "src": "icon-512.png",
+   "src": "maskable-512.png",
    "sizes": "512x512",
    "type": "image/png",
    "purpose": "maskable"
